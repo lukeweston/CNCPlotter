@@ -19667,9 +19667,8 @@ push-push type</description>
 <net name="N$64" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="VREF"/>
-<wire x1="63.5" y1="266.7" x2="66.04" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="266.7" x2="68.58" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="264.16" x2="71.12" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="266.7" x2="68.58" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="266.7" x2="71.12" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="264.16" x2="147.32" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="251.46" x2="71.12" y2="264.16" width="0.1524" layer="91"/>
 <junction x="71.12" y="264.16"/>
@@ -19877,9 +19876,8 @@ push-push type</description>
 <net name="N$72" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="VREF"/>
-<wire x1="63.5" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="78.74" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="78.74" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="63.5" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 <junction x="71.12" y="76.2"/>
