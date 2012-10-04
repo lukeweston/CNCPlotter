@@ -1423,7 +1423,7 @@ Copal</description>
 <attribute name="NAME" x="65.674875" y="40.60825" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="81.1784" y="6.223" size="0.8128" layer="27" ratio="15"/>
 </element>
-<element name="R32" library="rcl" package="R2010" value="0.25R 1W" x="78.105" y="49.53" smashed="yes" rot="R270">
+<element name="R32" library="rcl" package="R2010" value="0.20Ω 1W" x="78.105" y="49.53" smashed="yes" rot="R270">
 <attribute name="NAME" x="77.073125" y="49.53" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="79.375" y="7.62" size="0.8128" layer="27" ratio="15"/>
 </element>
@@ -1511,7 +1511,7 @@ Copal</description>
 <attribute name="NAME" x="67.992625" y="56.499125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="82.804" y="8.8773" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="R33" library="rcl" package="R2010" value="0.25R 1W" x="59.055" y="49.53" smashed="yes" rot="R270">
+<element name="R33" library="rcl" package="R2010" value="0.20Ω 1W" x="59.055" y="49.53" smashed="yes" rot="R270">
 <attribute name="NAME" x="58.023125" y="49.53" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="78.105" y="7.62" size="0.8128" layer="27" ratio="15"/>
 </element>
@@ -1549,7 +1549,7 @@ Copal</description>
 <attribute name="NAME" x="89.24925" y="40.687625" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="78.0034" y="5.588" size="0.8128" layer="27" ratio="15"/>
 </element>
-<element name="R46" library="rcl" package="R2010" value="0.2R 1W" x="100.965" y="49.53" smashed="yes" rot="R270">
+<element name="R46" library="rcl" package="R2010" value="0.20Ω 1W" x="100.965" y="49.53" smashed="yes" rot="R270">
 <attribute name="NAME" x="99.85375" y="49.53" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="79.21625" y="6.19125" size="0.8128" layer="27" ratio="15"/>
 </element>
@@ -1637,7 +1637,7 @@ Copal</description>
 <attribute name="NAME" x="89.900125" y="56.816625" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="79.3115" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="R47" library="rcl" package="R2010" value="0.2R 1W" x="81.915" y="49.53" smashed="yes" rot="R270">
+<element name="R47" library="rcl" package="R2010" value="0.20Ω 1W" x="81.915" y="49.53" smashed="yes" rot="R270">
 <attribute name="NAME" x="80.80375" y="49.53" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="78.74" y="6.985" size="0.8128" layer="27" ratio="15"/>
 </element>
@@ -4011,68 +4011,6 @@ Copal</description>
 <wire x1="99.187" y1="36.195" x2="99.06" y2="36.322" width="0.254" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="5,1,bda8dbfa31895baf"/>
-<approved hash="5,1,bf3fdbfe3189593c"/>
-<approved hash="5,1,ba19dbfa31895c1e"/>
-<approved hash="5,1,86fbdbfe32716300"/>
-<approved hash="5,1,b88adbfe31915e91"/>
-<approved hash="5,1,81e5dbc231b167e2"/>
-<approved hash="5,1,8e56dbfe31896855"/>
-<approved hash="5,1,8374dbe231916573"/>
-<approved hash="5,1,8cc7dbfe31896ac4"/>
-<approved hash="5,1,8930dbfa31896f37"/>
-<approved hash="5,1,1fe2b4718931d699"/>
-<approved hash="5,1,3e96b4518911f7cd"/>
-<approved hash="19,1,de5d60a36133dfcd"/>
-<approved hash="5,1,ad9527518511fbce"/>
-<approved hash="5,1,8ce127718531da9a"/>
-<approved hash="5,1,1c9396518511fbc8"/>
-<approved hash="5,1,3de796718531da9c"/>
-<approved hash="5,1,838e09518111ffd5"/>
-<approved hash="5,1,a2fa09718131de81"/>
-<approved hash="5,1,728cf8518111ffd7"/>
-<approved hash="5,1,53f8f8718131de83"/>
-<approved hash="5,1,e18b6b518511fbd0"/>
-<approved hash="5,1,c0ff6b718531da84"/>
-<approved hash="5,1,5089da518511fbd2"/>
-<approved hash="5,1,71fdda718531da86"/>
-<approved hash="5,1,c7844d519911e7df"/>
-<approved hash="5,1,e6f04d719931c68b"/>
-<approved hash="5,1,97f63c717931268d"/>
-<approved hash="5,1,b6823c51791107d9"/>
-<approved hash="5,1,2580af518511fbdb"/>
-<approved hash="5,1,04f4af718531da8f"/>
-<approved hash="5,1,431c0ffe1189591f"/>
-<approved hash="5,1,418b0ffa11895b8c"/>
-<approved hash="5,1,72750ffe11896876"/>
-<approved hash="5,1,7dc60fc211b167c1"/>
-<approved hash="5,1,70e40ffe11896ae7"/>
-<approved hash="5,1,7ad80ffe12716323"/>
-<approved hash="5,1,44a90ffe11915eb2"/>
-<approved hash="5,1,463a0ffa11895c3d"/>
-<approved hash="5,1,7f570fe211916550"/>
-<approved hash="5,1,75130ffa11896f14"/>
-<approved hash="5,1,2207f2bb71a53078"/>
-<approved hash="5,1,2207f2b9b6ec0814"/>
-<approved hash="5,1,c2fe12753854789e"/>
-<approved hash="5,1,2207f280f1653078"/>
-<approved hash="5,1,bcdeb67978cbbead"/>
-<approved hash="5,1,c074921755692eef"/>
-<approved hash="5,1,c143c81aff9dedb2"/>
-<approved hash="5,1,f303e11cd69bdff2"/>
-<approved hash="5,1,83bf6c1f6e404d21"/>
-<approved hash="5,1,83bf6c1f0d8935cd"/>
-<approved hash="5,1,dff0d6abe12cf301"/>
-<approved hash="5,1,f6b0e48dd30ada41"/>
-<approved hash="5,1,c0701111e6fa4223"/>
-<approved hash="5,1,d337f430ee84591c"/>
-<approved hash="5,1,c0701111e6fa0223"/>
-<approved hash="5,1,d337f430ee84191c"/>
-<approved hash="5,1,c817e08392a22ef2"/>
-<approved hash="5,1,d6a0e08792a23041"/>
-<approved hash="5,1,d331e08792a235d0"/>
-</errors>
 </board>
 </drawing>
 </eagle>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -16774,7 +16774,7 @@ push-push type</description>
 <part name="R26" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="47K"/>
 <part name="C17" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1nF"/>
 <part name="VR2" library="pot" deviceset="TRIM_EU-" device="CT6" value="10K"/>
-<part name="R32" library="rcl" deviceset="R-EU_" device="R2010" value="0.25R 1W"/>
+<part name="R32" library="rcl" deviceset="R-EU_" device="R2010" value="0.20Ω 1W"/>
 <part name="R27" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="47K"/>
 <part name="C18" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1nF"/>
 <part name="R28" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="0R"/>
@@ -16796,7 +16796,7 @@ push-push type</description>
 <part name="C15" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100nF"/>
 <part name="C14" library="freetronics-master-v1" deviceset="CAP" device="0603" value="220nF"/>
 <part name="C16" library="freetronics-master-v1" deviceset="CAP" device="0603" value="220nF"/>
-<part name="R33" library="rcl" deviceset="R-EU_" device="R2010" value="0.25R 1W"/>
+<part name="R33" library="rcl" deviceset="R-EU_" device="R2010" value="0.20Ω 1W"/>
 <part name="C13" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100uF"/>
 <part name="IC7" library="eje-components" deviceset="DRV8811" device=""/>
 <part name="U$2" library="freetronics-luke" deviceset="GND" device=""/>
@@ -16843,7 +16843,7 @@ push-push type</description>
 <part name="R40" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="47K"/>
 <part name="C29" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1nF"/>
 <part name="VR3" library="pot" deviceset="TRIM_EU-" device="CT6" value="10 k"/>
-<part name="R46" library="rcl" deviceset="R-EU_" device="R2010" value="0.2R 1W"/>
+<part name="R46" library="rcl" deviceset="R-EU_" device="R2010" value="0.20Ω 1W"/>
 <part name="R41" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="47K"/>
 <part name="C30" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1nF"/>
 <part name="R42" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="0R"/>
@@ -16865,7 +16865,7 @@ push-push type</description>
 <part name="C27" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100nF"/>
 <part name="C26" library="freetronics-master-v1" deviceset="CAP" device="0603" value="220nF"/>
 <part name="C28" library="freetronics-master-v1" deviceset="CAP" device="0603" value="220nF"/>
-<part name="R47" library="rcl" deviceset="R-EU_" device="R2010" value="0.2R 1W"/>
+<part name="R47" library="rcl" deviceset="R-EU_" device="R2010" value="0.20Ω 1W"/>
 <part name="C25" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100uF"/>
 <part name="U$106" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="J5" library="SparkFun" deviceset="POWER_JACK" device="SLT" value="12V Supply"/>
@@ -17043,7 +17043,6 @@ push-push type</description>
 <text x="132.08" y="226.06" size="1.27" layer="98">0603</text>
 <text x="144.78" y="226.06" size="1.27" layer="98">0603</text>
 <text x="177.8" y="226.06" size="1.27" layer="98">2010</text>
-<text x="177.8" y="215.9" size="1.27" layer="98">0R25 resistors: CSRN2010FKR250CT-ND</text>
 <text x="203.2" y="226.06" size="1.27" layer="98">2010</text>
 <text x="190.5" y="226.06" size="1.27" layer="98">0603</text>
 <text x="215.9" y="226.06" size="1.27" layer="98">0603</text>
@@ -17083,7 +17082,7 @@ push-push type</description>
 <text x="132.08" y="53.34" size="1.27" layer="98">0603</text>
 <text x="144.78" y="53.34" size="1.27" layer="98">0603</text>
 <text x="177.8" y="53.34" size="1.27" layer="98">2010</text>
-<text x="170.18" y="50.8" size="1.27" layer="98">989-1049-1-ND</text>
+<text x="190.5" y="43.18" size="1.27" layer="98">CSRN2010FKR200CT-ND</text>
 <text x="203.2" y="53.34" size="1.27" layer="98">2010</text>
 <text x="190.5" y="53.34" size="1.27" layer="98">0603</text>
 <text x="215.9" y="53.34" size="1.27" layer="98">0603</text>
@@ -17095,6 +17094,7 @@ push-push type</description>
 <text x="129.54" y="284.48" size="1.27" layer="98">0603</text>
 <text x="129.54" y="111.76" size="1.27" layer="98">0603</text>
 <text x="220.98" y="127" size="1.27" layer="98">C25: 399-6104-ND</text>
+<text x="190.5" y="215.9" size="1.27" layer="98">CSRN2010FKR200CT-ND</text>
 </plain>
 <instances>
 <instance part="IC5" gate="G$1" x="124.46" y="474.98" smashed="yes">
