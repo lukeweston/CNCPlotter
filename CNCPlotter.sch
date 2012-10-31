@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -16623,7 +16623,7 @@ push-push type</description>
 <part name="U$27" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="J7" library="freetronics-luke" deviceset="SJ" device="" value="HWB"/>
 <part name="U$28" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="J8" library="freetronics-luke" deviceset="USB-FT" device=""/>
+<part name="J8" library="freetronics-luke" deviceset="USB-FT" device="" value="USB"/>
 <part name="Z1" library="freetronics-luke" deviceset="PGB102ST23" device=""/>
 <part name="U$66" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="U$67" library="freetronics-luke" deviceset="GND" device=""/>
@@ -16670,7 +16670,7 @@ push-push type</description>
 <part name="U$87" library="freetronics-luke" deviceset="+5V" device=""/>
 <part name="LED5" library="freetronics-master-v1" deviceset="LED" device="0603" value="Y"/>
 <part name="U$85" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="IC3" library="burr-brown" deviceset="REG1117" device="" value="LD1117S33"/>
+<part name="IC3" library="burr-brown" deviceset="REG1117" device="" value="LD111733"/>
 <part name="P+22" library="supply1" deviceset="+5V" device=""/>
 <part name="IC1" library="40xx" deviceset="4050" device="D" value="HEF4050B"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device="" value="+3.3V"/>
@@ -16680,14 +16680,14 @@ push-push type</description>
 <part name="IC4" library="40xx" deviceset="4094" device="D" value="74HC4094"/>
 <part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
-<part name="C4" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100 nF"/>
+<part name="C4" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100nF"/>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
-<part name="VR1" library="pot" deviceset="TRIM_EU-" device="CT6" value="10 k"/>
+<part name="VR1" library="pot" deviceset="TRIM_EU-" device="CT6" value="10kΩ"/>
 <part name="IC2" library="SparkFun" deviceset="MC34063" device="SMD" value="MC34063"/>
-<part name="C3" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100 pF"/>
+<part name="C3" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100pF"/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100uF"/>
 <part name="L1" library="SparkFun" deviceset="INDUCTOR" device="CR75" value="33 uH"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C1210" value="47 uF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C1210" value="47µF"/>
 <part name="P+11" library="supply1" deviceset="+12V" device=""/>
 <part name="LED7" library="freetronics-master-v1" deviceset="LED" device="0603" value="12"/>
 <part name="R5" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1k"/>
@@ -16695,7 +16695,7 @@ push-push type</description>
 <part name="R7" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="4k7"/>
 <part name="R9" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R10" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="3k0"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R1210" value="0.2 ohms"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R1210" value="0.2Ω"/>
 <part name="R12" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="22R"/>
 <part name="R17" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="R18" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10k"/>
@@ -16706,7 +16706,7 @@ push-push type</description>
 <part name="R1" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R11" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R13" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10k"/>
-<part name="LED8" library="freetronics-master-v1" deviceset="LED" device="0603" value="SD act"/>
+<part name="LED8" library="freetronics-master-v1" deviceset="LED" device="0603" value="SD"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="D2" library="freetronics-luke" deviceset="SCHOTTKY" device="" value="CDBA120"/>
 <part name="U$10" library="freetronics-luke" deviceset="GND" device=""/>
@@ -16724,8 +16724,8 @@ push-push type</description>
 <part name="U$43" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="U$44" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="U$45" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="C5" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100 nF"/>
-<part name="C6" library="freetronics-master-v1" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C5" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100nF"/>
+<part name="C6" library="freetronics-master-v1" deviceset="CAP" device="0805" value="10µF"/>
 <part name="R14" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="R16" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="22R"/>
 <part name="R15" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="22R"/>
@@ -16773,7 +16773,7 @@ push-push type</description>
 <part name="U$103" library="freetronics-luke" deviceset="+5V" device=""/>
 <part name="R26" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="47K"/>
 <part name="C17" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1nF"/>
-<part name="VR2" library="pot" deviceset="TRIM_EU-" device="CT6" value="10K"/>
+<part name="VR2" library="pot" deviceset="TRIM_EU-" device="CT6" value="10kΩ"/>
 <part name="R32" library="rcl" deviceset="R-EU_" device="R2010" value="0.20Ω 1W"/>
 <part name="R27" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="47K"/>
 <part name="C18" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1nF"/>
@@ -16842,7 +16842,7 @@ push-push type</description>
 <part name="U$105" library="freetronics-luke" deviceset="+5V" device=""/>
 <part name="R40" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="47K"/>
 <part name="C29" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1nF"/>
-<part name="VR3" library="pot" deviceset="TRIM_EU-" device="CT6" value="10 k"/>
+<part name="VR3" library="pot" deviceset="TRIM_EU-" device="CT6" value="10kΩ"/>
 <part name="R46" library="rcl" deviceset="R-EU_" device="R2010" value="0.20Ω 1W"/>
 <part name="R41" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="47K"/>
 <part name="C30" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1nF"/>
@@ -16869,12 +16869,12 @@ push-push type</description>
 <part name="C25" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100uF"/>
 <part name="U$106" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="J5" library="SparkFun" deviceset="POWER_JACK" device="SLT" value="12V Supply"/>
-<part name="C7" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100 nF"/>
-<part name="C8" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100 nF"/>
-<part name="C10" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100 nF"/>
+<part name="C7" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100nF"/>
+<part name="C8" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100nF"/>
+<part name="C10" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100nF"/>
 <part name="C12" library="freetronics-master-v1" deviceset="CAP" device="0603" value="22pF"/>
 <part name="C11" library="freetronics-master-v1" deviceset="CAP" device="0603" value="22pF"/>
-<part name="C9" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1 uF"/>
+<part name="C9" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1µF"/>
 <part name="J10" library="pinhead" deviceset="PINHD-1X4" device="" value="Touchscreen"/>
 <part name="J4" library="pinhead" deviceset="PINHD-1X4" device="" value="UART"/>
 <part name="J9" library="con-phoenix-254" deviceset="MPT6" device="" value="Home Switches"/>

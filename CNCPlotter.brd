@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="3.125" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -60,70 +60,70 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="146" name="p_Milling" color="3" fill="9" visible="yes" active="yes"/>
-<layer number="147" name="COVER" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="190" name="Comments" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="146" name="p_Milling" color="3" fill="9" visible="no" active="yes"/>
+<layer number="147" name="COVER" color="14" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="190" name="Comments" color="12" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -136,7 +136,6 @@
 <wire x1="3.81" y1="0" x2="0" y2="3.81" width="0" layer="20" curve="-90"/>
 <wire x1="0" y1="3.81" x2="0" y2="69.85" width="0" layer="20"/>
 <text x="2.2225" y="18.7325" size="0.8128" layer="21" ratio="15">1</text>
-<text x="11.43" y="60.325" size="0.8128" layer="25" ratio="15">J3</text>
 <text x="17.145" y="27.305" size="0.8128" layer="25" ratio="15">L1</text>
 <text x="55.72125" y="24.765" size="0.8128" layer="25" ratio="15">IC5</text>
 <text x="60.325" y="24.13" size="0.8128" layer="21" ratio="15">1</text>
@@ -147,8 +146,6 @@
 <text x="61.356875" y="9.2075" size="0.8128" layer="21" ratio="15">HWB</text>
 <text x="18.415" y="46.99" size="0.8128" layer="21" ratio="15">1</text>
 <text x="11.43" y="36.83" size="0.8128" layer="21" ratio="15">1</text>
-<text x="64.055625" y="45.005625" size="0.8128" layer="21" ratio="15">1</text>
-<text x="86.995" y="45.005625" size="0.8128" layer="21" ratio="15">1</text>
 <text x="32.7025" y="71.4375" size="0.8128" layer="21" ratio="15">Z</text>
 <text x="37.861875" y="71.4375" size="0.8128" layer="21" ratio="15">Y</text>
 <text x="42.8625" y="71.4375" size="0.8128" layer="21" ratio="15">X</text>
@@ -180,10 +177,16 @@
 <text x="89.138125" y="71.358125" size="0.8128" layer="21" ratio="15">YA2</text>
 <text x="91.678125" y="71.358125" size="0.8128" layer="21" ratio="15">YB1</text>
 <text x="94.218125" y="71.358125" size="0.8128" layer="21" ratio="15">YB2</text>
-<text x="17.78" y="9.525" size="0.8128" layer="21" ratio="15">LCD Contrast</text>
-<text x="30.48" y="63.5" size="0.8128" layer="21" ratio="15">Home Switches</text>
+<text x="17.145" y="9.525" size="0.8128" layer="21" ratio="15">LCD Contrast</text>
 <text x="62.5475" y="36.591875" size="0.8128" layer="21" ratio="15">Current Limit</text>
 <text x="85.88375" y="36.591875" size="0.8128" layer="21" ratio="15">Current Limit</text>
+<text x="75.565" y="55.245" size="1.016" layer="25">+</text>
+<text x="98.425" y="55.245" size="1.016" layer="25">+</text>
+<text x="15.24" y="35.56" size="1.016" layer="25">+</text>
+<text x="56.515" y="52.705" size="1.016" layer="25" ratio="16">1</text>
+<text x="62.865" y="45.72" size="1.016" layer="25" ratio="16">1</text>
+<text x="85.725" y="45.72" size="1.016" layer="25" ratio="16">1</text>
+<text x="5.55625" y="59.21375" size="1.016" layer="25" ratio="16">J5</text>
 </plain>
 <libraries>
 <library name="freetronics-master-v1">
@@ -1005,7 +1008,7 @@ Copal</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="fr">&lt;b&gt;EAGLE Design Rules for PCBCart (Standard PCB)&lt;/b&gt;
 &lt;p&gt;&lt;b&gt;Characteristics:&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;
@@ -1184,15 +1187,15 @@ Copal</description>
 <elements>
 <element name="IC5" library="freetronics-jon" package="QFN-44N" value="ATmega32U4" x="56.515" y="20.32" smashed="yes" rot="R180"/>
 <element name="J7" library="freetronics-luke" package="SJ" value="HWB" x="62.38875" y="11.90625" smashed="yes" rot="R90">
-<attribute name="NAME" x="82.883375" y="8.048625" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="61.849" y="13.446125" size="0.8128" layer="25" ratio="15"/>
 </element>
-<element name="J8" library="freetronics-luke" package="USB-MINIB-FT" value="USB-FT" x="17.145" y="67.31" smashed="yes" rot="R270">
+<element name="J8" library="freetronics-luke" package="USB-MINIB-FT" value="USB" x="17.145" y="67.31" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.51" y="66.04" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="78.74" y="8.89" size="0.8128" layer="27" ratio="15"/>
+<attribute name="VALUE" x="16.113125" y="67.15125" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="Z1" library="freetronics-luke" package="SOT23-3" value="PGB102ST23" x="19.05" y="57.15" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.38325" y="58.848625" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="77.724" y="8.0645" size="0.8128" layer="27" ratio="15"/>
+<attribute name="VALUE" x="14.224" y="60.7695" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="Q1" library="freetronics-master-v1" package="HC49US" value="16MHz" x="46.99" y="20.955" smashed="yes" rot="R270">
 <attribute name="VALUE" x="45.085" y="13.843" size="0.8128" layer="27" ratio="15"/>
@@ -1204,15 +1207,15 @@ Copal</description>
 </element>
 <element name="D1" library="freetronics-luke" package="SMA" value="CDBA120" x="12.065" y="16.51" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.3665" y="15.859125" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="78.359" y="6.096" size="0.8128" layer="27" ratio="15"/>
+<attribute name="VALUE" x="14.70025" y="13.9065" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="D3" library="freetronics-luke" package="SMA" value="CDBA120" x="32.0675" y="39.37" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.369" y="39.036625" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="78.6765" y="6.096" size="0.8128" layer="27" ratio="15"/>
+<attribute name="NAME" x="31.448375" y="39.0525" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="29.543375" y="41.100375" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="J3" library="SparkFun" package="2X3-NS" value="ISP" x="5.715" y="16.51" smashed="yes" rot="R270">
-<attribute name="NAME" x="0.635" y="14.605" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="0.635" y="15.875" size="0.8128" layer="21" ratio="15"/>
+<attribute name="NAME" x="1.905" y="17.145" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="0.635" y="15.875" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="LED1" library="freetronics-master-v1" package="LED-0603" value="TX" x="28.575" y="3.175" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.9212" y="1.80975" size="0.8128" layer="25" ratio="15" rot="R90"/>
@@ -1239,8 +1242,8 @@ Copal</description>
 <attribute name="MPN" value="22-23-2031" x="80.01" y="67.945" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="MOLEX" x="80.01" y="67.945" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1462950" x="80.01" y="67.945" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="76.2" y="63.5" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="78.4225" y="63.5" size="0.8128" layer="21" ratio="15"/>
+<attribute name="NAME" x="78.105" y="63.5" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="80.3275" y="63.5" size="0.8128" layer="21" ratio="15"/>
 </element>
 <element name="J11" library="SparkFun" package="DS_TOUCH_CONNECTOR" value="Touchscreen" x="101.6" y="10.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="100.43" y="9.57" size="0.8128" layer="25" ratio="15"/>
@@ -1250,152 +1253,152 @@ Copal</description>
 <attribute name="NAME" x="37.5412" y="1.80975" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="35.97275" y="0.9398" size="0.8128" layer="21" ratio="15"/>
 </element>
-<element name="IC3" library="burr-brown" package="SOT223" value="LD1117S33" x="5.715" y="24.28875" smashed="yes" rot="R90">
+<element name="IC3" library="burr-brown" package="SOT223" value="LD111733" x="5.715" y="24.28875" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="14P6981" x="36.83" y="-71.59625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="REG1117" x="36.83" y="-71.59625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="36.83" y="-71.59625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1097566" x="36.83" y="-71.59625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="4.92125" y="24.16175" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="75.46975" y="5.588" size="0.8128" layer="27" ratio="15"/>
+<attribute name="NAME" x="6.080125" y="23.574375" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="7.191375" y="21.336" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="IC1" library="40xx" package="SO16" value="HEF4050B" x="6.35" y="34.29" smashed="yes" rot="R180">
 <attribute name="NAME" x="5.588" y="34.036" size="0.8128" layer="25" ratio="15"/>
 </element>
 <element name="J6" library="RAMPSdisplay" package="ADAFRUIT_MICROSD" value="MicroSD Card" x="17.145" y="54.61" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.01875" y="53.36875" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="15.28875" y="41.30375" size="0.8128" layer="25" ratio="15"/>
 </element>
 <element name="LCD1" library="abi-lcd" package="HDM20416L" value="HD44780 20x4" x="60.325" y="31.115" smashed="yes">
-<attribute name="NAME" x="25.957075" y="56.04775" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="76.9952" y="7.4065" size="0.8128" layer="27" ratio="15"/>
+<attribute name="NAME" x="23.495" y="61.595" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="22.225" y="60.96" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="IC4" library="40xx" package="SO16@1" value="74HC4094" x="51.435" y="50.561875" smashed="yes" rot="R180">
-<attribute name="VALUE" x="48.641" y="45.481875" size="0.8128" layer="27" ratio="15"/>
+<attribute name="VALUE" x="48.48225" y="45.481875" size="0.8128" layer="27" ratio="15"/>
 <attribute name="NAME" x="50.673" y="50.784125" size="0.8128" layer="25" ratio="15"/>
 </element>
-<element name="C4" library="freetronics-master-v1" package="0603" value="100 nF" x="57.15" y="43.815" smashed="yes" rot="R270">
-<attribute name="NAME" x="57.5945" y="41.259125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="77.724" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
+<element name="C4" library="freetronics-master-v1" package="0603" value="100nF" x="57.15" y="43.815" smashed="yes" rot="R270">
+<attribute name="NAME" x="55.245" y="42.624375" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="52.705" y="42.545" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="VR1" library="pot" package="CT6" value="10 k" x="21.59" y="5.715" smashed="yes" rot="R180">
-<attribute name="NAME" x="20.589875" y="5.04825" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="81.8134" y="6.858" size="0.8128" layer="27" ratio="15"/>
+<element name="VR1" library="pot" package="CT6" value="10kΩ" x="21.59" y="5.715" smashed="yes" rot="R180">
+<attribute name="NAME" x="20.558125" y="5.715" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="17.145" y="10.795" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="IC2" library="SparkFun" package="SO08" value="MC34063" x="21.59" y="48.895" smashed="yes">
-<attribute name="VALUE" x="77.47" y="5.715" size="0.8128" layer="27" ratio="15"/>
+<attribute name="VALUE" x="19.20875" y="44.1325" size="0.8128" layer="27" ratio="15"/>
 <attribute name="NAME" x="20.79625" y="48.895" size="0.8128" layer="25" ratio="15"/>
 </element>
-<element name="C3" library="freetronics-master-v1" package="0603" value="100 pF" x="12.7" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.954125" y="55.514875" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="78.994" y="6.0198" size="0.8128" layer="27" font="vector" ratio="15"/>
+<element name="C3" library="freetronics-master-v1" package="0603" value="100pF" x="12.7" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="14.0335" y="55.514875" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="14.06525" y="55.629175" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C1" library="rcl" package="E2,5-6" value="100uF" x="17.145" y="37.30625" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.06575" y="36.92525" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="14.89075" y="36.92525" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="15.367" y="33.448625" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="L1" library="SparkFun" package="CR75" value="33 uH" x="17.78" y="31.75" smashed="yes" rot="R270"/>
-<element name="C2" library="rcl" package="C1210" value="47 uF" x="13.335" y="22.225" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.7" y="19.84375" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="78.74" y="5.715" size="0.8128" layer="27" ratio="15"/>
+<element name="C2" library="rcl" package="C1210" value="47µF" x="13.335" y="22.225" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.875" y="21.828125" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="15.875" y="20.955" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="LED7" library="freetronics-master-v1" package="LED-0603" value="12" x="32.385" y="3.175" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.7312" y="1.80975" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="32.794575" y="0.333375" size="0.8128" layer="21" ratio="15" rot="R90"/>
 </element>
 <element name="R5" library="freetronics-master-v1" package="0603" value="1k" x="36.195" y="6.35" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.560125" y="7.604125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="77.724" y="7.2898" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="36.576" y="7.62" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="36.591875" y="9.525" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R6" library="freetronics-master-v1" package="0603" value="1k" x="34.29" y="6.35" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.655125" y="7.604125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="82.169" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="34.671" y="7.62" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="34.6202" y="9.540875" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R7" library="freetronics-master-v1" package="0603" value="4k7" x="32.385" y="6.35" smashed="yes" rot="R90">
-<attribute name="NAME" x="32.8295" y="7.604125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="82.804" y="8.5598" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="32.766" y="7.62" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="32.781875" y="9.525" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R9" library="freetronics-master-v1" package="0603" value="1k" x="28.575" y="46.99" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.194125" y="46.624875" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="80.899" y="7.9248" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="29.21" y="46.99" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="29.21" y="45.72" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R10" library="freetronics-master-v1" package="0603" value="3k0" x="25.0825" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.781" y="50.3555" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="80.264" y="8.2423" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="25.781" y="50.83175" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="25.892125" y="49.8348" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="R8" library="rcl" package="R1210" value="0.2 ohms" x="20.32" y="41.91" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.70125" y="41.513125" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="75.565" y="5.715" size="0.8128" layer="27" ratio="15"/>
+<element name="R8" library="rcl" package="R1210" value="0.2Ω" x="20.32" y="41.91" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.86" y="41.91" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="22.86" y="40.64" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="R12" library="freetronics-master-v1" package="0603" value="22R" x="57.785" y="54.9275" smashed="yes" rot="R270">
-<attribute name="NAME" x="55.14975" y="54.879875" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="79.3115" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="55.0164" y="54.911625" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="55.0164" y="55.245" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R17" library="freetronics-master-v1" package="0603" value="10k" x="46.99" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="47.355125" y="67.3735" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.359" y="7.9248" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="45.94225" y="67.421125" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="47.3202" y="67.40525" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R18" library="freetronics-master-v1" package="0603" value="10k" x="41.275" y="62.865" smashed="yes">
-<attribute name="NAME" x="40.624125" y="61.468" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="78.359" y="7.9248" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="40.22725" y="61.468" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="42.719625" y="61.502925" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R19" library="freetronics-master-v1" package="0603" value="10k" x="38.1" y="62.865" smashed="yes">
 <attribute name="NAME" x="37.05225" y="61.468" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="78.359" y="7.527925" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="34.70275" y="61.502925" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R4" library="freetronics-master-v1" package="0603" value="1k" x="38.1" y="6.35" smashed="yes" rot="R90">
-<attribute name="NAME" x="38.5445" y="7.604125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="80.264" y="8.5598" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="38.735" y="5.953125" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="38.735" y="5.08" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R3" library="freetronics-master-v1" package="0603" value="1k" x="30.48" y="6.35" smashed="yes" rot="R90">
-<attribute name="NAME" x="30.845125" y="7.604125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="80.899" y="8.5598" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="30.861" y="7.62" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="30.861" y="9.525" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R2" library="freetronics-master-v1" package="0603" value="1k" x="26.67" y="6.35" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.035125" y="7.604125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.359" y="7.9248" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="27.051" y="7.62" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="27.0002" y="9.382125" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R1" library="freetronics-master-v1" package="0603" value="1k" x="28.575" y="6.35" smashed="yes" rot="R90">
-<attribute name="NAME" x="28.940125" y="7.604125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="80.264" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="28.956" y="7.62" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="28.9052" y="9.540875" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R11" library="freetronics-master-v1" package="0603" value="1k" x="4.7625" y="28.41625" smashed="yes">
-<attribute name="NAME" x="6.096" y="27.97175" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="76.1365" y="5.22605" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="6.175375" y="27.97175" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="6.096" y="29.03855" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R13" library="freetronics-master-v1" package="0603" value="10k" x="22.86" y="37.465" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.39975" y="37.099875" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="82.804" y="7.9248" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="23.495" y="37.226875" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="23.495" y="36.274375" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="LED8" library="freetronics-master-v1" package="LED-0603" value="SD act" x="1.74625" y="28.41625" smashed="yes" rot="R180">
+<element name="LED8" library="freetronics-master-v1" package="LED-0603" value="SD" x="1.74625" y="28.41625" smashed="yes" rot="R180">
 <attribute name="NAME" x="0.53975" y="26.75255" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="0.254" y="29.03855" size="0.8128" layer="21" ratio="15"/>
+<attribute name="VALUE" x="1.127125" y="29.03855" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="D2" library="freetronics-luke" package="SMA" value="CDBA120" x="23.97125" y="28.575" smashed="yes" rot="R90">
-<attribute name="NAME" x="23.352125" y="31.575375" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="79.629" y="7.52475" size="0.8128" layer="27" ratio="15"/>
+<attribute name="NAME" x="23.352125" y="27.765375" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="26.685875" y="26.050875" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
-<element name="C5" library="freetronics-master-v1" package="0603" value="100 nF" x="10.795" y="12.065" smashed="yes">
-<attribute name="NAME" x="10.144125" y="10.747375" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="77.962125" y="7.13105" size="0.8128" layer="27" font="vector" ratio="15"/>
+<element name="C5" library="freetronics-master-v1" package="0603" value="100nF" x="10.795" y="12.065" smashed="yes">
+<attribute name="NAME" x="10.144125" y="10.668" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="8.98525" y="9.67105" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C6" library="freetronics-master-v1" package="0805" value="10uF" x="12.065" y="25.4" smashed="yes">
+<element name="C6" library="freetronics-master-v1" package="0805" value="10µF" x="12.065" y="25.4" smashed="yes">
 <attribute name="NAME" x="11.382375" y="26.2255" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="76.93025" y="6.5405" size="0.8128" layer="27" ratio="15"/>
+<attribute name="VALUE" x="10.652125" y="27.257375" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="R14" library="freetronics-master-v1" package="0603" value="10k" x="50.165" y="26.67" smashed="yes" rot="R270">
-<attribute name="NAME" x="49.276" y="28.448" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="78.359" y="7.2898" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="51.038125" y="25.796875" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="49.149" y="28.006675" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R16" library="freetronics-master-v1" package="0603" value="22R" x="19.20875" y="54.61" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.161" y="53.213" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="82.724625" y="8.162925" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="18.19275" y="53.16855" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R15" library="freetronics-master-v1" package="0603" value="22R" x="23.8125" y="54.61" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.844125" y="53.292375" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="79.3115" y="7.2898" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="22.76475" y="55.197375" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="22.717125" y="53.247925" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="IC6" library="eje-components" package="HTSSOP28" value="DRV8811" x="68.58" y="49.53" smashed="yes">
-<attribute name="NAME" x="62.12875" y="46.160625" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="78.48" y="6.335" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="67.764375" y="50.129375" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="66.018125" y="50.229375" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="J12" library="con-phoenix-254" package="4POL254" value="X Motor" x="68.58" y="67.945" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="68.58" y="67.945" size="1.778" layer="27" display="off"/>
@@ -1413,115 +1416,115 @@ Copal</description>
 </element>
 <element name="R26" library="freetronics-master-v1" package="0603" value="47K" x="60.325" y="37.465" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.690125" y="34.036" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.994" y="7.2898" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="59.388375" y="38.801675" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C17" library="freetronics-master-v1" package="0603" value="1nF" x="61.9125" y="37.465" smashed="yes" rot="R270">
-<attribute name="NAME" x="62.357" y="33.956625" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="77.724" y="5.7023" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="62.357" y="33.9598" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="63.35395" y="33.9598" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="VR2" library="pot" package="CT6" value="10K" x="66.675" y="41.275" smashed="yes">
-<attribute name="NAME" x="65.674875" y="40.60825" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="81.1784" y="6.223" size="0.8128" layer="27" ratio="15"/>
+<element name="VR2" library="pot" package="CT6" value="10kΩ" x="66.675" y="41.275" smashed="yes">
+<attribute name="NAME" x="65.659" y="41.275" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="65.278" y="40.64" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="R32" library="rcl" package="R2010" value="0.20Ω 1W" x="78.105" y="49.53" smashed="yes" rot="R270">
-<attribute name="NAME" x="77.073125" y="49.53" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="79.375" y="7.62" size="0.8128" layer="27" ratio="15"/>
+<attribute name="NAME" x="77.073125" y="52.784375" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="76.438125" y="46.83125" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="R27" library="freetronics-master-v1" package="0603" value="47K" x="71.755" y="36.83" smashed="yes" rot="R90">
 <attribute name="NAME" x="72.120125" y="33.401" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.994" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="72.164575" y="38.115875" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C18" library="freetronics-master-v1" package="0603" value="1nF" x="73.66" y="36.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.1045" y="33.401" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="79.629" y="6.0198" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="74.14895" y="30.972125" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R28" library="freetronics-master-v1" package="0603" value="0R" x="69.215" y="35.56" smashed="yes">
 <attribute name="NAME" x="68.16725" y="34.163" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="78.994" y="6.0198" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="68.5165" y="33.16605" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C19" library="freetronics-master-v1" package="0603" value="100nF" x="65.88125" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.8335" y="34.163" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="79.15275" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="64.0715" y="33.16605" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R24" library="freetronics-master-v1" package="0603" value="3K3" x="61.9125" y="41.43375" smashed="yes" rot="R90">
-<attribute name="NAME" x="60.86475" y="42.656125" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="79.78775" y="7.6073" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="59.197875" y="40.67175" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="59.229625" y="40.230425" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R25" library="freetronics-master-v1" package="0603" value="10K" x="56.515" y="37.465" smashed="yes" rot="R270">
-<attribute name="NAME" x="56.9595" y="34.115375" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.994" y="7.2898" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="56.9595" y="34.036" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="56.924575" y="38.83025" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R21" library="freetronics-master-v1" package="0603" value="10K" x="74.295" y="41.275" smashed="yes" rot="R270">
 <attribute name="NAME" x="73.24725" y="39.08425" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="78.994" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="74.6252" y="42.64025" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R22" library="freetronics-master-v1" package="0603" value="10K" x="78.105" y="41.275" smashed="yes" rot="R270">
 <attribute name="NAME" x="79.502" y="40.22725" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="82.804" y="7.9248" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="78.514575" y="37.87775" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R23" library="freetronics-master-v1" package="0603" value="10K" x="74.295" y="60.325" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.62825" y="59.27725" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="80.264" y="7.2898" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="71.599425" y="59.166125" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="71.599425" y="59.3598" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R20" library="freetronics-master-v1" package="0603" value="10K" x="69.5325" y="59.69" smashed="yes">
-<attribute name="NAME" x="68.48475" y="60.198" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="78.0415" y="7.9248" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="68.48475" y="60.277375" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="68.5165" y="61.344175" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C20" library="freetronics-master-v1" package="0603" value="100nF" x="52.705" y="37.465" smashed="yes" rot="R270">
-<attribute name="NAME" x="53.070125" y="34.115375" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.994" y="6.81355" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="49.53" y="36.195" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="48.26" y="36.195" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C21" library="freetronics-master-v1" package="0603" value="220nF" x="69.215" y="56.1975" smashed="yes" rot="R90">
-<attribute name="NAME" x="70.612" y="55.14975" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.0415" y="7.9248" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="68.326" y="54.00675" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="71.60895" y="54.467125" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R30" library="freetronics-master-v1" package="0603" value="10K" x="64.4525" y="55.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.78575" y="54.83225" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.914625" y="6.575425" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="63.40475" y="53.68925" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="63.4365" y="53.724175" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R31" library="freetronics-master-v1" package="0603" value="10K" x="76.835" y="60.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="75.78725" y="61.468" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="78.994" y="6.0198" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="75.78725" y="61.547375" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="75.819" y="61.502925" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R29" library="freetronics-master-v1" package="0603" value="4K7" x="54.61" y="37.465" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.975125" y="34.115375" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="82.169" y="7.2898" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="54.975125" y="34.036" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="54.9402" y="38.83025" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C22" library="freetronics-master-v1" package="0603" value="100nF" x="78.105" y="44.45" smashed="yes" rot="R270">
 <attribute name="NAME" x="79.581375" y="43.40225" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.359" y="7.2898" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="80.6577" y="42.64025" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C23" library="freetronics-master-v1" package="0603" value="100nF" x="59.055" y="43.65625" smashed="yes" rot="R270">
-<attribute name="NAME" x="59.420125" y="40.22725" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="79.78775" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="60.531375" y="42.529125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="58.039" y="44.992925" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C24" library="freetronics-master-v1" package="0603" value="100nF" x="75.565" y="36.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="76.0095" y="33.401" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="76.454" y="6.0198" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="77.00645" y="35.02025" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C15" library="freetronics-master-v1" package="0603" value="100nF" x="60.325" y="54.61" smashed="yes" rot="R180">
-<attribute name="NAME" x="59.27725" y="53.213" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="81.534" y="7.9248" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="59.27725" y="55.197375" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="58.51525" y="53.247925" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C14" library="freetronics-master-v1" package="0603" value="220nF" x="64.135" y="59.69" smashed="yes">
 <attribute name="NAME" x="63.08725" y="60.277375" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="78.994" y="7.9248" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="62.32525" y="58.327925" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C16" library="freetronics-master-v1" package="0603" value="220nF" x="67.6275" y="55.245" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.992625" y="56.499125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="82.804" y="8.8773" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="66.500375" y="56.626125" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="66.925825" y="53.832125" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R33" library="rcl" package="R2010" value="0.20Ω 1W" x="59.055" y="49.53" smashed="yes" rot="R270">
 <attribute name="NAME" x="58.023125" y="49.53" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="78.105" y="7.62" size="0.8128" layer="27" ratio="15"/>
+<attribute name="VALUE" x="61.674375" y="46.6725" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="C13" library="rcl" package="E2,5-6" value="100uF" x="77.47" y="57.15" smashed="yes">
-<attribute name="NAME" x="76.406375" y="55.260875" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="75.692" y="53.213" size="0.8128" layer="27" ratio="15"/>
+<attribute name="NAME" x="76.406375" y="58.435875" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="75.692" y="55.118" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="IC7" library="eje-components" package="HTSSOP28" value="DRV8811" x="91.44" y="49.53" smashed="yes">
-<attribute name="NAME" x="84.98875" y="46.08125" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="77.845" y="7.2875" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="90.64625" y="50.085625" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="88.9" y="50.165" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="J15" library="con-phoenix-254" package="4POL254" value="Y Motor" x="91.44" y="67.945" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="91.44" y="78.105" size="1.778" layer="27" display="off"/>
@@ -1539,144 +1542,143 @@ Copal</description>
 </element>
 <element name="R40" library="freetronics-master-v1" package="0603" value="47K" x="93.0275" y="34.925" smashed="yes" rot="R90">
 <attribute name="NAME" x="93.472" y="31.496" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.359" y="5.7023" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="93.51645" y="29.067125" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C29" library="freetronics-master-v1" package="0603" value="1nF" x="91.1225" y="34.925" smashed="yes" rot="R270">
 <attribute name="NAME" x="91.567" y="31.496" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="83.439" y="6.3373" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="91.567" y="29.067125" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="VR3" library="pot" package="CT6" value="10 k" x="90.17" y="41.275" smashed="yes">
-<attribute name="NAME" x="89.24925" y="40.687625" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="78.0034" y="5.588" size="0.8128" layer="27" ratio="15"/>
+<element name="VR3" library="pot" package="CT6" value="10kΩ" x="90.17" y="41.275" smashed="yes">
+<attribute name="NAME" x="89.138125" y="41.275" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="88.7984" y="40.005" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="R46" library="rcl" package="R2010" value="0.20Ω 1W" x="100.965" y="49.53" smashed="yes" rot="R270">
-<attribute name="NAME" x="99.85375" y="49.53" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="79.21625" y="6.19125" size="0.8128" layer="27" ratio="15"/>
+<attribute name="NAME" x="99.85375" y="49.2125" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="103.505" y="46.751875" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="R41" library="freetronics-master-v1" package="0603" value="47K" x="97.155" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="97.5995" y="32.210375" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="75.184" y="6.0198" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="97.5995" y="32.131" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="97.4852" y="36.845875" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C30" library="freetronics-master-v1" package="0603" value="1nF" x="95.25" y="35.56" smashed="yes" rot="R270">
-<attribute name="NAME" x="95.6945" y="32.210375" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.83525" y="7.6073" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="95.6945" y="32.131" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="95.5802" y="36.92525" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R42" library="freetronics-master-v1" package="0603" value="0R" x="99.06" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="99.425125" y="32.210375" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="80.264" y="6.0198" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="99.425125" y="32.131" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="99.469575" y="36.845875" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C31" library="freetronics-master-v1" package="0603" value="100nF" x="88.9" y="34.925" smashed="yes" rot="R270">
 <attribute name="NAME" x="89.265125" y="31.496" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="76.454" y="4.7498" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="89.3445" y="27.305" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R38" library="freetronics-master-v1" package="0603" value="3k3" x="85.09" y="41.275" smashed="yes" rot="R270">
-<attribute name="NAME" x="85.455125" y="42.529125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.994" y="7.2898" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="86.407625" y="40.0685" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="85.499575" y="42.64025" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R39" library="freetronics-master-v1" package="0603" value="10k" x="85.09" y="38.4175" smashed="yes" rot="R90">
-<attribute name="NAME" x="84.582" y="37.36975" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="79.3115" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="82.423" y="38.25875" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="82.423" y="37.2872" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R35" library="freetronics-master-v1" package="0603" value="10k" x="97.155" y="41.275" smashed="yes" rot="R270">
 <attribute name="NAME" x="96.10725" y="39.163625" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="80.264" y="7.9248" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="97.4852" y="42.64025" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R36" library="freetronics-master-v1" package="0603" value="10k" x="100.965" y="41.275" smashed="yes" rot="R270">
-<attribute name="NAME" x="99.91725" y="39.163625" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="76.454" y="5.3848" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="101.6" y="40.878125" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="101.6" y="40.005" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R37" library="freetronics-master-v1" package="0603" value="10k" x="96.52" y="59.69" smashed="yes" rot="R90">
-<attribute name="NAME" x="95.932625" y="58.64225" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="81.69275" y="8.956675" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="95.488125" y="61.11875" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="95.488125" y="61.039375" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R34" library="freetronics-master-v1" package="0603" value="10k" x="84.7725" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="85.137625" y="57.134125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="82.804" y="6.9723" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="85.137625" y="57.2135" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="85.1027" y="52.562125" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C32" library="freetronics-master-v1" package="0603" value="100nF" x="86.995" y="34.925" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.360125" y="31.496" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="77.089" y="6.0198" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="87.391875" y="27.305" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C33" library="freetronics-master-v1" package="0603" value="220nF" x="93.0275" y="57.62625" smashed="yes" rot="R90">
-<attribute name="NAME" x="93.392625" y="58.880375" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="76.93025" y="5.7023" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="94.503875" y="56.5785" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="95.500825" y="55.8165" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R44" library="freetronics-master-v1" package="0603" value="10k" x="86.20125" y="55.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="86.566375" y="57.134125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.6765" y="6.892925" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="86.64575" y="57.2135" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="86.53145" y="52.562125" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R45" library="freetronics-master-v1" package="0603" value="10k" x="99.06" y="60.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="98.01225" y="61.468" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="77.56525" y="6.892925" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="98.01225" y="61.547375" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="98.044" y="61.502925" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R43" library="freetronics-master-v1" package="0603" value="4K7" x="85.09" y="34.925" smashed="yes" rot="R90">
-<attribute name="NAME" x="85.5345" y="31.575375" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.994" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="82.296" y="34.6456" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="82.296" y="33.655" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C34" library="freetronics-master-v1" package="0603" value="100nF" x="101.6" y="35.56" smashed="yes" rot="R270">
-<attribute name="NAME" x="102.0445" y="32.210375" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.994" y="6.0198" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="102.235" y="35.163125" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="102.235" y="34.29" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C35" library="freetronics-master-v1" package="0603" value="100nF" x="83.185" y="41.275" smashed="yes" rot="R270">
-<attribute name="NAME" x="83.550125" y="42.529125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="79.629" y="6.0198" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="82.597625" y="40.22725" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="82.5627" y="39.862125" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C36" library="freetronics-master-v1" package="0603" value="100nF" x="83.185" y="55.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="83.550125" y="57.134125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="78.359" y="6.0198" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="83.550125" y="57.2135" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="82.5627" y="54.07025" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C27" library="freetronics-master-v1" package="0603" value="100nF" x="81.915" y="60.325" smashed="yes" rot="R180">
-<attribute name="NAME" x="80.86725" y="60.912375" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="78.994" y="7.9248" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="80.86725" y="60.99175" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="80.10525" y="60.867925" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C26" library="freetronics-master-v1" package="0603" value="220nF" x="91.44" y="55.324375" smashed="yes" rot="R270">
-<attribute name="NAME" x="91.805125" y="56.5785" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="79.708375" y="7.686675" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="91.805125" y="56.657875" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="91.849575" y="59.229625" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C28" library="freetronics-master-v1" package="0603" value="220nF" x="89.535" y="55.5625" smashed="yes" rot="R270">
-<attribute name="NAME" x="89.900125" y="56.816625" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="79.3115" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="88.947625" y="54.594125" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="89.944575" y="56.92775" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R47" library="rcl" package="R2010" value="0.20Ω 1W" x="81.915" y="49.53" smashed="yes" rot="R270">
-<attribute name="NAME" x="80.80375" y="49.53" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="78.74" y="6.985" size="0.8128" layer="27" ratio="15"/>
+<attribute name="NAME" x="80.9625" y="52.784375" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="84.455" y="46.99" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="C25" library="rcl" package="E2,5-6" value="100uF" x="100.33" y="57.15" smashed="yes">
 <attribute name="NAME" x="99.266375" y="55.260875" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="98.552" y="53.292375" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="J5" library="SparkFun" package="POWER_JACK_SLOT" value="12V Supply" x="6.35" y="63.5" smashed="yes" rot="R180"/>
-<element name="C7" library="freetronics-master-v1" package="0603" value="100 nF" x="66.04" y="26.67" smashed="yes">
-<attribute name="NAME" x="64.99225" y="27.257375" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="77.724" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
+<element name="C7" library="freetronics-master-v1" package="0603" value="100nF" x="66.04" y="26.67" smashed="yes">
+<attribute name="NAME" x="65.389125" y="27.33675" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="64.61125" y="27.305" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C8" library="freetronics-master-v1" package="0603" value="100 nF" x="64.135" y="16.51" smashed="yes" rot="R180">
+<element name="C8" library="freetronics-master-v1" package="0603" value="100nF" x="64.135" y="16.51" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.484125" y="17.018" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="75.819" y="6.0198" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="62.32525" y="15.147925" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C10" library="freetronics-master-v1" package="0603" value="100 nF" x="66.04" y="24.765" smashed="yes" rot="R180">
-<attribute name="NAME" x="65.389125" y="23.368" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="79.629" y="6.6548" size="0.8128" layer="27" font="vector" ratio="15"/>
+<element name="C10" library="freetronics-master-v1" package="0603" value="100nF" x="66.04" y="24.765" smashed="yes" rot="R180">
+<attribute name="NAME" x="64.99225" y="23.368" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="64.23025" y="22.37105" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C12" library="freetronics-master-v1" package="0603" value="22pF" x="43.18" y="22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.13225" y="20.748625" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="78.994" y="6.0198" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="40.005" y="22.225" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="39.37" y="21.59" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C11" library="freetronics-master-v1" package="0603" value="22pF" x="43.18" y="19.05" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.13225" y="16.85925" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="79.629" y="7.9248" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="40.005" y="18.415" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="39.37" y="17.78" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C9" library="freetronics-master-v1" package="0603" value="1 uF" x="55.245" y="32.385" smashed="yes">
-<attribute name="NAME" x="54.594125" y="31.067375" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="77.724" y="5.781675" size="0.8128" layer="27" font="vector" ratio="15"/>
+<element name="C9" library="freetronics-master-v1" package="0603" value="1µF" x="55.245" y="32.385" smashed="yes">
+<attribute name="NAME" x="54.61" y="30.95625" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="51.435" y="31.75" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="J10" library="pinhead" package="1X04" value="Touchscreen" x="95.885" y="10.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="94.8563" y="15.4813" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="81.915" y="7.62" size="0.6096" layer="27" ratio="15" rot="R180"/>
+<attribute name="NAME" x="94.8563" y="15.560675" size="0.8128" layer="25" ratio="15"/>
 </element>
 <element name="J4" library="pinhead" package="1X04" value="UART" x="6.35" y="6.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.258175" y="1.273175" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="79.375" y="6.985" size="0.8128" layer="27" ratio="15"/>
+<attribute name="NAME" x="8.258175" y="1.908175" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="8.255" y="1.905" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="J9" library="con-phoenix-254" package="6POL254" value="Home Switches" x="38.1" y="67.945" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="38.1" y="67.945" size="1.778" layer="27" rot="R180" display="off"/>
