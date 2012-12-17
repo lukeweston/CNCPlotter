@@ -15,7 +15,7 @@ The board incorporates the following hardware features:
 - Inputs for three "limit" or "home" switches (or switches with any other kind of software-defined functionality!) 
 - Connector for a cheap 4-wire resistive touchscreen, such as a Nintendo DS compatible touchscreen 
 - Power supply input voltage range of 9-30V. (At least 1A current capacity is required to run the stepper motors.) 
-- Output header for an optional third stepper motor, enabling three-axis CNC applications. 
+- Output header for an optional third stepper motor driver IC, enabling three-axis CNC applications. 
  
  
 Assuming you're using an Arduino Leonardo bootloader, the following is the mapping of Arduino pins to hardware functions.	
